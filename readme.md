@@ -1,4 +1,4 @@
-# WeRateDogs Data Wrangling Project 🐶
+# WeRateDogs Data Wrangling Project
 
 ## About This Project
 This project is all about working with real-world messy data. I used Twitter data from the WeRateDogs account to clean, combine, and analyze tweets to find interesting patterns and insights about dog ratings and engagement.
@@ -15,7 +15,7 @@ This project is all about working with real-world messy data. I used Twitter dat
 ---
 
 ## Dataset Info
-The data comes from the **WeRateDogs (@dog_rates)** Twitter account, which is known for rating dogs in a fun and unique way (ratings usually go above 10/10 😄).
+The data comes from the **WeRateDogs (@dog_rates)** Twitter account, which is known for rating dogs in a fun and unique way (ratings usually go above 10/10 ).
 
 The project uses three datasets:
 - `twitter_archive_enhanced.csv`
