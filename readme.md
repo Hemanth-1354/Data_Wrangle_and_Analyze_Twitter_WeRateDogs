@@ -1,36 +1,45 @@
-# Project Table of Contents:
-* Gathering Data
-* Assessing Data for this Project
-* Cleaning Data for this Project
-* Storing, Analyzing, and Visualizing Data for this Project
-* Reporting for this Project
+# WeRateDogs Data Wrangling Project 🐶
 
+## About This Project
+This project is all about working with real-world messy data. I used Twitter data from the WeRateDogs account to clean, combine, and analyze tweets to find interesting patterns and insights about dog ratings and engagement.
 
-# Goal:
-Wrangle WeRateDogs Twitter data to create interesting and trustworthy analyses and visualizations.
+---
 
+## What I Worked On
+- Collected data from different sources (CSV, TSV, and JSON)
+- Checked data quality and tidiness issues
+- Cleaned and merged datasets into one usable dataset
+- Analyzed and visualized the data to find trends
+- Summarized findings in a simple and clear way
 
-# Introduction of Data Set :
-The dataset is the tweet archive of Twitter user @dog_rates, also known as WeRateDogs. WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog. These ratings almost always have a denominator of 10. The numerators, though? Almost always greater than 10. 11/10, 12/10, 13/10, etc. Why? Because "they're good dogs Brent." WeRateDogs has over 4 million followers and has received international media coverage.
+---
 
+## Dataset Info
+The data comes from the **WeRateDogs (@dog_rates)** Twitter account, which is known for rating dogs in a fun and unique way (ratings usually go above 10/10 😄).
 
-## 3 Data Sets: 
-* twitter_archive_enhanced.csv ( download manually ) 
+The project uses three datasets:
+- `twitter_archive_enhanced.csv`
+- `image_predictions.tsv`
+- `tweet_json.txt`
 
-* image_predictions.tsv 
-The tweet image predictions, i.e., what breed of dog (or other object, animal, etc.) is present in each tweet according to a neural network. This file (image_predictions.tsv) is hosted on Udacity's servers and should be downloaded programmatically using the Requests library and the following URL: https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv
+All datasets are already included in the project folder.
 
-* tweet_json.txt 
-Each tweet's retweet count and favorite ("like") count at minimum, and any additional data you find interesting. Using the tweet IDs in the WeRateDogs Twitter archive, query the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file called tweet_json.txt file. Each tweet's JSON data should be written to its own line. Then read this .txt file line by line into a pandas DataFrame with (at minimum) tweet ID, retweet count, and favorite count. Note: do not include your Twitter API keys, secrets, and tokens in your project submission.
+---
 
-### Three data sets are provided in my project folder. You can download directly.
-please keep the data set as it is. Do not try to put twitter-archive-enhanced.csv and twitter-archive-master.csv into project4_data folder
+## Tools Used
+- Python  
+- Pandas  
+- NumPy  
+- Requests  
+- Tweepy  
+- JSON  
 
-# What Software Do I Need?
-* pandas
-* NumPy
-* requests
-* tweepy
-* json
+---
 
+## Why This Project
+This project helped me practice data wrangling, cleaning messy data, and turning raw data into meaningful insights using Python.
 
+---
+
+## Author
+Hemanth Kumar Polisetti
